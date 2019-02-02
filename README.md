@@ -6,11 +6,20 @@ The code provided in this repository can be readily used to optimize resource sc
 
 - This code is written in Python3.6. In addition, you need to install a few more packages.
 
+  - networkx
+  - numpy
+  - pandas
+  - keras
+  - tensorflow
+  - PyProM
+
 - To install,
 
   ```
   $ cd prediction_based_resource_allocation
   $ pip install -r requirements.txt
+  $ cd ..
+  $ git clone https://github.com/gyunamister/PyProM.git
   ```
 
 

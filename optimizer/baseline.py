@@ -5,7 +5,7 @@ import networkx as nx
 import time
 import numpy as np
 
-p = Path(__file__).resolve().parents[1]
+p = Path(__file__).resolve().parents[2]
 sys.path.append(os.path.abspath(str(p)))
 
 from PyProM.src.data.Eventlog import Eventlog

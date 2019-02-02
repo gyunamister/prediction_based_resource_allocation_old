@@ -1,4 +1,4 @@
-from baseline import BaseOptimizer
+from optimizer.baseline import BaseOptimizer
 
 if __name__=='__main__':
 	Opt = BaseOptimizer()
